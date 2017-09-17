@@ -8,8 +8,13 @@ sudo apt-get install build-essential
 sudo apt-get intall mariadb-server
 
 # -- gitlab 
-aller sur votre hebergeur de domaine, et ajouter par exemple ceci sur le cname A:
-	
-serveurgit.ohkod.fr.	 A 	votreIP
+#aller sur votre hebergeur de domaine, et ajouter par exemple ceci sur le cname A: serveurgit.ohkod.fr.	 A 	votreIP
+
+sudo apt-get install -y curl openssh-server ca-certificates
+sudo apt-get install -y postfix
+curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+sudo apt-get install gitlab-ce
+sudo gitlab-ctl reconfigure
+
 
 
