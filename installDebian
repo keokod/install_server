@@ -20,4 +20,4 @@ sudo gitlab-ctl reconfigure
 #configurer le nom de domaine
 sudo nano /home/git/gitlab/config/initializers/relative_url.rb (external_url = 'http://ohkod.fr')
 sudo gitlab-ctl reconfigure #recharger la configuration
-
+#sur un autre pc on peut git clone 192.168.1.2/l_utilisateur/depot.git
