@@ -17,3 +17,7 @@ sudo apt-get install gitlab-ce
 sudo gitlab-ctl reconfigure
 
 #aller sur la page d'admin avec comme login "root" et mot de pass "5iveL!fe"
+#configurer le nom de domaine
+sudo nano /home/git/gitlab/config/initializers/relative_url.rb (external_url = 'http://ohkod.fr')
+sudo gitlab-ctl reconfigure #recharger la configuration
+
