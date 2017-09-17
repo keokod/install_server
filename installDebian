@@ -16,5 +16,4 @@ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/scrip
 sudo apt-get install gitlab-ce
 sudo gitlab-ctl reconfigure
 
-
-
+#aller sur la page d'admin avec comme login "root" et mot de pass "5iveL!fe"
