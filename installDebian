@@ -1,1 +1,2 @@
-d
+fdisk -l #rechercher la cle
+dd if=debian-9.1.0-amd64-netinst.iso of=/dev/sdb1 bs=4M && sync  #charger l'iso dans la clef
