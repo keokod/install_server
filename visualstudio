@@ -1,0 +1,5 @@
+#installer visual studio , télécharger la version .deb sur le site officiel
+#sous debian9 il manquera 2 librairies manquant, il faudra télécharcher les 2 .Deb
+
+http://ftp.fr.debian.org/debian/pool/main/g/gconf/gconf2-common_3.2.6-4_all.deb
+http://ftp.fr.debian.org/debian/pool/main/g/gconf/libgconf-2-4_3.2.6-4+b1_amd64.deb
