@@ -2,6 +2,7 @@ fdisk -l #rechercher la cle
 dd if=debian-9.1.0-amd64-netinst.iso of=/dev/sdb1 bs=4M && sync  #charger l'iso dans la clef
 visudo # mettre le compte utilisateur en sudo
 
+apt-get install sudo
 sudo apt-get update
 sudo apt-get install curl
 sudo apt-get install build-essential
