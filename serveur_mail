@@ -1,2 +1,1 @@
- apt-get install postfix
- apt-get install certbot 
+apt-get install nginx
